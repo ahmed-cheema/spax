@@ -9,7 +9,6 @@
   "playoffSeries": [],
   "negotiations": [],
   "draftLotteryResults": [],
-  "events": [],
   "playerFeats": [],
   "games": [],
   "trade": [
@@ -40,6 +39,20 @@
       "year": 2020,
       "text": "<p>Hey, sorry I didn't recognize you in the lobby this morning. I'm sure I'll get to know you eventually. Maybe after I get back from my trip to Tahiti?</p><p>Well, listen. Times are rough. Profit only increased by 10% last year. I know, I know, horrible. And I had to let half of our junior staffers go just to get that 10%!</p><p>So I'll cut right to the chase. I need money. And championships. Money and championships, that's what I'm interested in.</p><p>Get it done.</p>",
       "mid": 0
+    }
+  ],
+  "events": [
+    {
+      "type": "draft",
+      "text": "The <a href=\"/l/48/roster/HOU/2020\">Rockets</a> selected <a href=\"/l/48/player/248\">James Harden</a> with the 1st pick in the <a href=\"/l/48/draft_summary/2020\">2020 fantasy draft</a>.",
+      "pids": [
+        248
+      ],
+      "tids": [
+        10
+      ],
+      "season": 2020,
+      "eid": 0
     }
   ],
   "teams": [
@@ -7331,14 +7344,6 @@
       "pick": 0,
       "season": 2023,
       "dpid": 239
-    },
-    {
-      "tid": 10,
-      "originalTid": 10,
-      "round": 1,
-      "pick": 1,
-      "season": "fantasy",
-      "dpid": 240
     },
     {
       "tid": 3,
@@ -58307,7 +58312,7 @@
       "pid": 247
     },
     {
-      "tid": -2,
+      "tid": 10,
       "name": "James Harden",
       "ratings": [
         {
@@ -58482,6 +58487,50 @@
       "watch": false,
       "yearsFreeAgent": 0,
       "stats": [
+        {
+          "playoffs": false,
+          "season": 2020,
+          "tid": 10,
+          "yearsWithTeam": 1,
+          "per": 0,
+          "ewa": 0,
+          "astp": 0,
+          "blkp": 0,
+          "drbp": 0,
+          "orbp": 0,
+          "stlp": 0,
+          "trbp": 0,
+          "usgp": 0,
+          "drtg": 0,
+          "ortg": 0,
+          "dws": 0,
+          "ows": 0,
+          "gp": 0,
+          "gs": 0,
+          "min": 0,
+          "fg": 0,
+          "fga": 0,
+          "fgAtRim": 0,
+          "fgaAtRim": 0,
+          "fgLowPost": 0,
+          "fgaLowPost": 0,
+          "fgMidRange": 0,
+          "fgaMidRange": 0,
+          "tp": 0,
+          "tpa": 0,
+          "ft": 0,
+          "fta": 0,
+          "pm": 0,
+          "orb": 0,
+          "drb": 0,
+          "ast": 0,
+          "tov": 0,
+          "stl": 0,
+          "blk": 0,
+          "ba": 0,
+          "pf": 0,
+          "pts": 0
+        },
         {
           "playoffs": false,
           "season": 2020,
