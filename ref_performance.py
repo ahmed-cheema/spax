@@ -44,8 +44,8 @@ A = aug[aug.columns[0:89]].to_numpy()
 B = aug.accuracy.to_numpy()
 A_M = np.transpose(A).dot(A)
 B_M = np.transpose(A).dot(B)
-lam = 5
-beta = (np.linalg.inv(np.transpose(A_M).dot(A_M) + lam*np.identity(len(A_M))).dot(np.transpose(A_M))).dot(B_M)
+lam = 35
+beta = (np.linalg.inv(A_M + lam*np.identity(len(A_M))).dot(B_M))
 
 final = pd.DataFrame(labels,beta).reset_index(drop=False)
 final.columns = ['val','label']
