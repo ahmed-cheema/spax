@@ -2,7 +2,6 @@ import pandas as pd
 import numpy as np
 
 df = pd.read_csv('C:\\Users\\cheem\\Downloads\\shots_data.csv')
-im = plt.imread('C:\\Users\\cheem\\Downloads\\courtDiagram.jpg')
 
 def cornerCheck(x,y):
     if (x >= 22.0 or x <= -22.0) and y <= 7.8:
