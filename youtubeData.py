@@ -1,6 +1,6 @@
-## Script to collect metadata and transcript information from YouTube videos
-## Both metadata and transcript data can be retrieved for a YouTube video in less than two seconds
-## Script made by Ahmed Cheema
+# Script to collect metadata and transcript information from YouTube videos
+# Both metadata and transcript data can be retrieved for a YouTube video in less than two seconds
+# Script made by Ahmed Cheema
 
 from youtube_transcript_api import YouTubeTranscriptApi
 from bs4 import BeautifulSoup
